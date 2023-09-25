@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "yemekAdi": "Mercimek Çorbası",
+    "malzemeler": [
+      "1 su bardağı kırmızı mercimek",
+      "1 soğan",
+      "1 havuç",
+      "1 patates",
+      "2 yemek kaşığı tereyağı",
+      "1 yemek kaşığı un",
+      "1 tatlı kaşığı kırmızı biber",
+      "6 su bardağı su",
+      "Tuz",
+      "Karabiber"
+    ],
+    "tarif": "Mercimekleri yıkayıp süzün. Soğanı ince doğrayın. Havucu ve patatesi küp küp doğrayın. Tereyağını tencerede eritin. Soğanı ekleyip pembeleşene kadar kavurun. Unu ekleyip kokusu çıkana kadar kavurun. Kırmızı biberi ve sebzeleri ekleyip birkaç dakika daha kavurun. Mercimekleri ekleyin ve suyu ilave edin. Tuz ve karabiberi ekleyip kaynamaya bırakın. Mercimekler iyice pişene kadar kaynatın. Blender kullanarak çorbayı pürüzsüz hale getirin. İstenilen kıvama gelince ocaktan alın ve sıcak servis yapın."
+  },
+  {
+    "id": 2,
+    "yemekAdi": "Izgara Tavuk",
+    "malzemeler": [
+      "4 tavuk göğsü",
+      "2 yemek kaşığı zeytinyağı",
+      "2 diş sarımsak",
+      "1 tatlı kaşığı tuz",
+      "1 çay kaşığı karabiber",
+      "1 çay kaşığı kekik"
+    ],
+    "tarif": "Tavuk göğüslerini yıkayıp kurulayın. Zeytinyağı, ezilmiş sarımsak, tuz, karabiber ve kekikle karıştırın. Tavukları bu karışımla marine edin ve buzdolabında en az 30 dakika bekletin. Izgara ateşi hazırlayın ve tavukları her iki tarafını da iyice pişene kadar ızgara yapın. Sıcak servis yapın."
+  },
+  {
+    "id": 3,
+    "yemekAdi": "Spagetti Carbonara",
+    "malzemeler": [
+      "200g spagetti",
+      "100g pancetta veya pastırma",
+      "2 yumurta",
+      "50g rendelenmiş parmesan peyniri",
+      "2 diş sarımsak",
+      "Tuz",
+      "Karabiber"
+    ],
+    "tarif": "Spagettiyi tuzlu kaynar suyla haşlayın. Pancettayı veya pastırmayı küp küp doğrayın ve tavada kızartın. Sarımsakları ince doğrayın ve pancettayla birlikte soteleyin. Yumurtaları bir kasede çırpın ve rendelenmiş parmesan peyniri ile karıştırın. Haşlanmış spagettiyi süzün ve sıcak tavaya ekleyin. Yumurta ve peynir karışımını hızlıca ekleyip karıştırın. Tuz ve karabiberle tatlandırın. Sıcak servis yapın."
+  },
+  {
+    "id": 4,
+    "yemekAdi": "Fırın Tavuk",
+    "malzemeler": [
+      "1 bütün tavuk",
+      "2 yemek kaşığı zeytinyağı",
+      "2 diş sarımsak",
+      "1 tatlı kaşığı tuz",
+      "1 çay kaşığı karabiber",
+      "1 çay kaşığı kekik"
+    ],
+    "tarif": "Tavuğu yıkayıp kurulayın. Zeytinyağı, ezilmiş sarımsak, tuz, karabiber ve kekikle karıştırın. Tavuğun içini ve dışını bu karışımla iyice ovun. Tavuğu fırın tepsisine yerleştirin ve önceden ısıtılmış 180 derece fırında yaklaşık 1.5 saat pişirin. Pişme süresi tavuğun büyüklüğüne göre değişebilir. Tavuk altın rengi olana kadar pişirin. Dilimleyip sıcak servis yapın."
+  },
+  {
+    "id": 5,
+    "yemekAdi": "Mantar Risotto",
+    "malzemeler": [
+      "1 su bardağı arborio pirinci",
+      "200g mantar",
+      "1 soğan",
+      "2 yemek kaşığı tereyağı",
+      "1/2 su bardağı beyaz şarap",
+      "1 lt tavuk suyu",
+      "Tuz",
+      "Karabiber",
+      "Parmesan peyniri"
+    ],
+    "tarif": "Mantarları temizleyip dilimleyin. Soğanı ince doğrayın. Tereyağını tavada eritin ve soğanı ekleyip pembeleşene kadar kavurun. Mantarları ekleyip suyunu salıp çekene kadar kavurun. Pirinci ekleyin ve pirinç taneleri şeffaflaşana kadar kavurun. Şarabı ekleyin ve karıştırarak buharlaşmasını sağlayın. Tavuk suyunu azar azar ekleyip karıştırarak pişirin. Sürekli karıştırarak pirinç suyunu çekene kadar pişirin. Tuz, karabiber ve rendelenmiş parmesan peyniri ekleyip karıştırın. Sıcak servis yapın."
+  }
+]

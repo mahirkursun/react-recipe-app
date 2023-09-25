@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
-
+import Detail from './Detail'
+import '../styles/home.scss'
 function Home() {
   const [veri, setVeri] = useState(null);
+  const [yemek, setYemek] = useState(null);
 
   useEffect(() => {
-    
-    const jsonDosyaURL = '../../recipe.json';
-
-    
+    const jsonDosyaURL = 'http://127.0.0.1:5501/src/data/tarifler.json';
     fetch(jsonDosyaURL)
       .then(response => {
         if (!response.ok) {
@@ -25,22 +24,21 @@ function Home() {
   }, []); 
 
   return (
-    <div>
+    <div id='recipes'>
       {veri ? (
-        <div>
-          <h1>JSON verisi:</h1>
-          <p>Ad: {veri.tarifAdi}</p>
-          <p>Malzemeler:</p>
-          <ul>
-            {veri.malzemeler.map((malzeme, index) => (
-              <li key={index}>{malzeme}</li>
-            ))}
-          </ul>
-          <p>Tarif: {veri.tarif}</p>
+        veri.map((yemek)=>
+        <div key={yemek.id} id='card'>
+          <h3>{yemek.yemekAdi}</h3>
+          <button onClick={()=>setYemek(yemek)}>Tarife Bak</button>
         </div>
+        )
       ) : (
         <p>Veri yükleniyor...</p>
       )}
+      {yemek!==null? <Detail yemek={yemek}/>
+      :null
+      }
+     
     </div>
   );
 }
